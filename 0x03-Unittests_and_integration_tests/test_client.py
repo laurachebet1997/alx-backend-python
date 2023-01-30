@@ -27,6 +27,7 @@ class TestGithubOrgClient(unittest.TestCase):
         ("google", {'login': "google"}),
         ("abc", {'login': "abc"}),
     ])
+
     @patch(
         "client.get_json",
     )
