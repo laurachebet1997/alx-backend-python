@@ -11,7 +11,6 @@ from unittest.mock import (
 )
 from parameterized import parameterized, parameterized_class
 from requests import HTTPError
-
 from client import (
     GithubOrgClient
 )
